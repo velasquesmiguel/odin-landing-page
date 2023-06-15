@@ -1,0 +1,77 @@
+*{
+    border: 1px solid red;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #1F2937;
+    align-items: center;
+}
+.logoimg{
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.headerlinks{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right: 200px;
+}
+.hero{
+    background-color: #1F2937;
+    display: flex;
+    gap: 100px;
+    align-content: flex-start;
+}
+.herotext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-left: 100px;
+}
+.mainimg{
+    height: 400px;
+    width: 700px;
+    margin-right: 200px;
+}
+.signup{
+    background-color: #3882F6;
+    width: 100px;
+}
+.action{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB
+}
+.testimonial{
+    background-color: #E5E7EB;
+}
+.callsignup{
+    background-color: #3882F6;
+}
+.footer{
+    background-color: #1F2937;
+}
