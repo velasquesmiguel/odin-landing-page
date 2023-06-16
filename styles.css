@@ -18,7 +18,7 @@ body{
 .logoimg{
     width: 50px;
     height: 50px;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 .logo{
     font-size: 24px;
@@ -33,38 +33,53 @@ body{
     font-size: 18px;
     color: #E5E7EB;
     margin-right: 200px;
+    gap: 15px;
 }
 .hero{
     background-color: #1F2937;
     display: flex;
-    gap: 100px;
-    align-content: flex-start;
 }
 .herotext{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    margin-left: 100px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 200px;
+    margin-top: 100px;
 }
 .mainimg{
     height: 400px;
-    width: 700px;
+    width: 800px;
     margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
 }
-.signup{
-    background-color: #3882F6;
-    width: 100px;
-}
+
 .action{
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8
+    padding-top: 0px;
+    color: #F9FAF8;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 .subtext{
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.signup{
+    background-color: #3882F6;
+    width: 150px;
+    height: 30px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+    color: #F9FAF8;
+    margin-top: 50px;
+
 }
 .testimonial{
     background-color: #E5E7EB;
