@@ -1,5 +1,4 @@
 *{
-    border: 1px solid red;
     font-family: 'Roboto', sans-serif;
 }
 body{
@@ -7,6 +6,7 @@ body{
     font-family: 'Roboto', sans-serif;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: 0;
 }
 .header{
@@ -15,6 +15,7 @@ body{
     background-color: #1F2937;
     align-items: center;
     height: 80px;
+    width: 100vw;
 }
 .logoimg{
     width: 50px;
@@ -39,6 +40,7 @@ body{
 .hero{
     background-color: #1F2937;
     display: flex;
+    width: 100vw;
 }
 .herotext{
     display: flex;
@@ -93,10 +95,12 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-bottom: 100px;
     margin-top: 50px;
     gap: 150px;
-
+    height: 300px;
+    width: 100vw;
 }
 .information{
     display: flex;
@@ -107,20 +111,80 @@ body{
     margin-top: 15px;
     width: 200px;
     text-align: center;
-
 }
 .imagequote{
     width: 100px;
     height: 100px;
     border-radius:10px;
-
 }
 .testimonial{
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    height: 400px;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.importantquote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.name{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0px;
+    padding-right: 400px;
 }
 .callsignup{
     background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    border-radius: 20px;
+    height: 120px;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.calltext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 22px;
+}
+.callaction{
+    margin-bottom: 3px;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.callsubtext{
+    font-size: 15px;
+    margin-left: 100px;
+    color: #F9FAF8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.signup2{
+    margin-right: 200px;
+    width: 150px;
+    height: 30px;
+    border-radius:8px;
+    color:#F9FAF8;
+    background-color:#3882F6;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid #F9FAF8
 }
 .footer{
     background-color: #1F2937;
@@ -130,4 +194,5 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
