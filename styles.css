@@ -14,6 +14,7 @@ body{
     justify-content: flex-start;
     background-color: #1F2937;
     align-items: center;
+    height: 80px;
 }
 .logoimg{
     width: 50px;
@@ -92,8 +93,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 300px;
-    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-top: 50px;
     gap: 150px;
 
 }
@@ -116,10 +117,17 @@ body{
 }
 .testimonial{
     background-color: #E5E7EB;
+    display: flex;
 }
 .callsignup{
     background-color: #3882F6;
 }
 .footer{
     background-color: #1F2937;
+    display: flex;
+    height: 80px;
+    color: #F9FAF8;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
